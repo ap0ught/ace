@@ -2,23 +2,25 @@
 .DS_Store
 *.swp
 *.tmp
+*~
 
 # Project files that should not be in the repo
-.project
-.settings/
-.settings.xml
-.c9settings.xml
-.settings.xml.old
+.*
+\#*
+!/.github
+!/.gitignore
 .*.gz
+*.tmTheme.js
+package-lock.json
 
 # A handy place to put stuff that git should ignore:
+/coverage
 /ignore/
-support/async/
-support/jsdom/
-support/node-htmlparser/
-support/node-o3-xml/
-support/requirejs/
+node_modules/
+jam/
+* *
 
-/node_modules
-support/node-o3-xml-v4/
 .git-ref
+npm-debug.log
+deps/
+dist
